@@ -73,16 +73,17 @@ print("Truth table for bitwise XOR")
 print("A\tB\tA ^ B")
 print("0\t0\t", 0 ^ 0)
 print("0\t1\t", 0 ^ 1)
-print("1\t0\t", 1 ^ 0)
+print("1\t0\t", 0 ^ 0)
 print("1\t1\t", 1 ^ 1)
 
+print("Shifts")
 x = int(input("Enter a number: "))
 left_shift = x << 1
 right_shift = x >> 1
 print(f"Left shift: {left_shift}")
 print(f"Right shift: {right_shift}")
 
-sequence = [10, 20, 56, 78, 89]
+sequence = (10, 20, 56, 78, 89)
 x = int(input("Enter a number: "))
 if x in sequence:
     print(f"{x} is in the sequence")
