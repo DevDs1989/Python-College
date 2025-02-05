@@ -1,11 +1,11 @@
 # # factorial of a number
 # print("Factorial of a number")
 # x = int(input("Enter a number: "))
-#
+
 # for i in range(1, x):
 #     x = x * i
 # print(x)
-#
+
 # # armstrong number
 # print("Armstrong number")
 # x = int(input("Enter a number: "))
@@ -35,8 +35,8 @@
 #         a = b
 #         b = c
 #         print(c, end="\t")
-#
-#
+
+
 # n = int(input("Enter a number: "))
 # fibonacci(n)
 # # prime number
@@ -53,20 +53,20 @@
 #     print("Not a prime number")
 
 # sum of all digits
-print("Sum of all digits")
-x = int(input("Enter a number: "))
-sum = 0
-while x > 0:
-    digit = x % 10
-    sum += digit
-    x = x // 10
-print(sum)
-#
-#
+# print("Sum of all digits")
+# x = int(input("Enter a number: "))
+# sum = 0
+# while x > 0:
+#     digit = x % 10
+#     sum += digit
+#     x = x // 10
+# print(sum)
+
+
 # # palindrome number
 # print("Palindrome number")
-#
-#
+
+
 # def palindrome(n):
 #     temp = n
 #     rev = 0
@@ -78,24 +78,23 @@ print(sum)
 #         print("Palindrome number")
 #     else:
 #         print("Not a palindrome number")
-#
-#
+
 # n = int(input("Enter a number: "))
 # palindrome(n)
-#
-# # count and print all the numbers divisible by 5 or 7 between 1 and 100
+
+# count and print all the numbers divisible by 5 or 7 between 1 and 100
 # print("Numbers divisible by 5 or 7")
-#
-#
+
+
 # def divisible():
 #     for i in range(1, 101):
 #         if i % 5 == 0 or i % 7 == 0:
 #             print(i)
-#
-#
+
+
 # divisible()
 #
-# # covert all lowercase to upper case in a string using loop
+# covert all lowercase to upper case in a string using loop
 # print("Convert lowercase to uppercase")
 # string = input("Enter a string: ")
 # new_string = ""
@@ -105,8 +104,8 @@ print(sum)
 #     else:
 #         new_string += i
 # print(new_string)
-#
-# # print all prime numbers between 1 and 100
+# #
+# print all prime numbers between 1 and 100
 # print("Prime numbers between 1 and 100")
 # for i in range(1, 101):
 #     if i > 1:
@@ -115,16 +114,16 @@ print(sum)
 #                 break
 #         else:
 #             print(i)
-#
+
 # # print the times table for a given number
 #
 # print("Times table")
 #
-#
-# def table(n):
-#     for i in range(1, 11):
-#         print(n, "x", i, "=", n * i)
-#
-#
-# n = int(input("Enter a number: "))
-# table(n)
+
+def table(n):
+    for i in range(1, 11):
+        print(n, "x", i, "=", n * i)
+
+
+n = int(input("Enter a number: "))
+table(n)
