@@ -1,5 +1,3 @@
-from warnings import warn
-
 import studentModule as sm
 
 students = {}
