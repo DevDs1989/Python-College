@@ -29,21 +29,42 @@
 
 
 # Write a Python function to print 1 to n using recursion. (Note: Do not use loop)
-def print_recursion(n):
-    if n == 0:
-        return
-    print_recursion(n - 1)
-    print(n)
+# def print_recursion(n):
+#     if n == 0:
+#         return
+#     print_recursion(n - 1)
+#     print(n)
+#
+#
+# n = int(input("Enter number: "))
+# print_recursion(n)
 
-
-n = int(input("Enter number: "))
-print_recursion(n)
 
 # Write a recursive function to print Fibonacci series upto n terms.
+# def fib(n):
+#     if n == 0:
+#         return 1
+#     if n == 1:
+#         return 1
+#     return fib(n - 1) + fib(n - 2)
+#
+#
+# n = int(input("Enter number: "))
+# for i in range(n):
+#     print(fib(i), end="->")
 # Write a lambda function to find volume of cone.
+# vol_of_cone = lambda r, h: (1 / 3) * 3.14 * r**2 * h
+# r, h = map(int, input("Enter radius and height: ").split())
+# print(f"Volume of cone: {vol_of_cone(r, h)}")
+#
 # Write a lambda function which gives tuple of max and min from a list.
 # Sample input: [10, 6, 8, 90, 12, 56]
 # Sample output: (90,6)
+max_min = lambda tist: (max(tist), min(tist))
+test_list = [12, 13, 123, 12, 98]
+variable = max_min(test_list)
+print(f"tuple {variable}")
+
 # Write functions to explain mentioned concepts:
 # Keyword argument
 # Default argument

@@ -44,7 +44,7 @@ class student:
         if (
             self.get_classroom_attendance() < 50.0
             or self.get_sport_attendance() < 20.0
-            or self.get_co_curricular_attendance() < 20.0
+            or self.get_co_curricular_attendance() < 10.0
         ):
             return True
         return False
